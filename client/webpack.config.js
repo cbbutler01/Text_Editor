@@ -38,7 +38,7 @@ module.exports = () => {
                 destination: path.join('icons', 'android'),
               },
               {
-                src: path.resolve(',/src/images/logo.png'),
+                src: path.resolve('./src/images/logo.png'),
                 sizes: [512],
                 destination: path.join('icons', 'ios'),
               }
